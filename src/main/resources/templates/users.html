@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Mustache servlet example app</title>
+</head>
+
+<body>
+
+<div>
+    <ol>
+        {{#users}}
+        <li>Hello, {{firstName}} {{lastName}} from {{country}} of age {{age}}!</li>
+        {{/users}}
+    </ol>
+</div>
+
+
+</body>
+
+</html>
+
